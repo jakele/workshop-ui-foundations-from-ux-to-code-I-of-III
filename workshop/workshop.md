@@ -1,21 +1,133 @@
-Hello again everyone,
+# Workshop Series: From Design to Development for Designers & UX Practitioners
 
-Now that we've laid the groundwork for understanding React and the concepts of component-based architecture, it's time to put that knowledge into practice. In this coding portion of our workshop, we'll get our hands dirty with some actual coding.
+## Workshop 1: Getting Started with Development
 
-Here's what we'll be doing:
+### Introduction to Terminal
 
-Setting Up Our Environment: We'll start by downloading and installing Create React App, an officially supported way to start a new React single-page application. It sets up your development environment so that you can use the latest JavaScript features, provides a nice developer experience, and optimizes your app for production.
+**Objective:** Understand what Terminal is and how to use it for basic file system navigation.
 
-Installing Additional Libraries: We'll install React Router, a standard library for routing in React, which will allow us to create multiple pages in our application. We'll also add Material UI, a popular component library that implements Google's Material Design.
+1. **Open Terminal**
 
-Creating a File Structure: A good file structure can make your project easy to navigate and maintain. We'll set up a simple, intuitive file structure for our application that promotes best practices.
+   - Open the Terminal application on your computer.
 
-Creating Shared Components: We'll develop a few shared components, such as a Header and a Footer, which can be reused across different pages of our application. This will give you a firsthand look at how component reusability works in React.
+2. **What is Terminal?**
 
-Remember, learning to code is a hands-on process, and the best way to learn is by doing. Don't worry if you make mistakes—every mistake is a learning opportunity. Let's get started!
+   - Terminal is a non-graphical user interface (non-GUI) for navigating your file system.
+   - You use a GUI every day when you use Finder. Terminal is like Finder but in a text-based format.
+   - Think of Terminal as a text-based video game compared to modern graphical games.
+   - Example: Type `open .` in Terminal to open Finder in your current location. Navigate back to Terminal and type `cd Documents`, then type `open .` again. Notice how you're now inside the Documents folder.
 
-As we conclude our coding session, we'll add an exciting touch to our application - we're going to incorporate a Material UI theme reflecting our branding. Not only will this make our app look professional and on-brand, it will also give you a glimpse into advanced UI configuration.
+   **Teacher's Note:** Walk participants through navigating Finder to do the same. Highlight that we navigated using words in Terminal instead of a trackpad.
 
-With Material UI's powerful theming capabilities, we can customize our application's appearance to align with any design guidelines or branding requirements. This is an important skill in the real-world where brand consistency across applications is often a requirement.
+3. **Why Use Terminal?**
+   - Terminal allows you to run non-GUI applications like Git, which we'll cover later.
+   - Terminal, like iOS or Windows, has vast capabilities. We'll simplify our use to three main functions: navigating the file system, running Node apps, and using Git.
 
-We hope this workshop has provided you with a strong introduction to React and the broader concepts of frontend development. The journey doesn't stop here, though. Use the resources we've provided and continue exploring. Experiment with new libraries, build your own projects, and keep learning.
+### Basic Terminal Commands
+
+**Objective:** Learn and practice essential Terminal commands.
+
+1. **Navigating the File System**
+
+   - `ls`: Lists files and directories in the current directory.
+   - `cd <directory>`: Changes the current directory to the specified directory.
+   - `.`: Refers to the current directory.
+   - `..`: Refers to the parent directory.
+   - `open .`: Opens Finder in the current directory.
+   - `mkdir <directory>`: Creates a new directory.
+
+   **Hot Tip:** Always use tab to auto-complete directory names. Terminal is case-sensitive and spaces matter.
+
+2. **Running Node Apps**
+
+   - `node <file>`: Runs a Node.js file.
+
+3. **Running Git**
+   - Basic Git commands will be covered in a later session.
+
+### Setting Up VS Code
+
+**Objective:** Install and set up VS Code, and understand what a code editor is.
+
+1. **Download and Install VS Code**
+
+   - Download VS Code from [here](https://code.visualstudio.com/).
+   - Follow the installation instructions for your operating system.
+
+2. **What is a Code Editor?**
+
+   - A code editor is a tool that helps you write and manage code. It provides features like syntax highlighting, code completion, and debugging.
+   - VS Code is a popular code editor with many extensions and integrations.
+
+3. **Setting Up VS Code Command Line**
+   - Open VS Code.
+   - Press `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows) to open the Command Palette.
+   - Type `Shell Command: Install 'code' command in PATH` and press Enter.
+   - Now you can open VS Code from Terminal by typing `code .`.
+
+### Creating a React Application
+
+**Objective:** Set up a new React application using Create React App.
+
+1. **Install Node.js**
+
+   - Download and install Node.js from [here](https://nodejs.org/).
+
+2. **Create React App**
+
+   - In Terminal, navigate to the directory where you want to create your project.
+   - Run `npx create-react-app my-app` to create a new React application.
+   - Navigate into the project directory: `cd my-app`.
+   - Open the project in VS Code: `code .`.
+
+3. **Update Text in `App.js`**
+   - Open `src/App.js` in VS Code.
+   - Modify the text inside the `div` to something new.
+   - Save the file and observe the changes in the browser.
+
+### Adding Material UI (MUI)
+
+**Objective:** Install and use Material UI components in your React application.
+
+1. **Install Material UI**
+
+   - Run `npm install @mui/material @emotion/react @emotion/styled`.
+
+2. **Add Components**
+
+   - Import and use MUI components in your React application.
+   - Example: Add a button component to `App.js`.
+
+   ```jsx
+   import Button from "@mui/material/Button";
+
+   function App() {
+     return (
+       <div className="App">
+         <h1>Hello, World!</h1>
+         <Button variant="contained" color="primary">
+           Click Me
+         </Button>
+       </div>
+     );
+   }
+
+   export default App;
+   ```
+
+### Exercise: Creating a Repo Directory
+
+**Objective:** Practice navigating the file system and creating directories.
+
+1. **Navigate to Documents**
+
+   - `cd ~/Documents`
+
+2. **Create a Repo Directory**
+   - `mkdir repos`
+   - `cd repos`
+
+### Summary and Q&A
+
+- Recap the session's topics.
+- Answer any questions.

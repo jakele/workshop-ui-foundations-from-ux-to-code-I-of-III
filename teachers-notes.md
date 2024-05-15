@@ -1,1 +1,1 @@
-* Validate everyone is up and running before getting started
+TODO

@@ -1,40 +1,47 @@
-Subject: Thank You for Joining the UI & React Foundations Workshop
+Thank you for attending the first session of our workshop series, "From Design to Development for Designers & UX Practitioners"! I hope you found it informative and engaging. As promised, here is a cheat sheet with the essential commands we covered for navigating your file system using Terminal.
 
-Dear Team,
+### Workshop 1 Recap
 
-Thank you so much for your active participation in our recent UI & React Foundations Workshop. It was a pleasure exploring React and modern UI frameworks with you all, and I hope you found it as insightful and engaging as I did.
+In our first session, we covered:
 
-Over the course of the workshop, we:
+- Introduction to the terminal and file system navigation
+- Setting up VS Code and understanding what a code editor is
+- Creating a React application using Create React App
+- Adding and using Material UI (MUI) components
 
-Downloaded and installed React using the Create React App project.
-Set up routing and incorporated Material UI into our project.
-Developed a simple file structure and created shared components.
-And finally, brought in a Material UI theme to give our project a branded look and feel.
-FAQ
-Following the session, here are a few frequently asked questions for your reference:
+### Cheat Sheet: Essential Terminal Commands
 
-Q: I missed the workshop, can I catch up on my own?
-A: Absolutely! All the materials used during the workshop, including the code snippets and explanations, are available in the GitHub repository. Feel free to go through them at your own pace.
+- `cd <directory>` - Change directory to the specified directory
+- `code .` - Open the current directory in VS Code
+- `ls` - List files and directories in the current directory
+- `mkdir <directory>` - Create a new directory
+- `open .` - Open the current directory in Finder (Mac)
+- `.` - Refers to the current directory
+- `../` - Refers to the parent directory
+- `Tab` - Auto-complete directory names
 
-Q: What's the best way to practice what I've learned?
-A: There's no better way than by doing! Try to apply what you've learned in your own projects. Start small, and incrementally add more complex features. You can also contribute to open source projects or participate in coding challenges.
+### Next Steps
 
-Q: How can I learn more about component-based architecture?
-A: There are numerous resources online that delve deeper into component-based architecture. For React, a good starting point is the official React documentation. You might also want to look into additional resources, such as books, online courses, and tutorial videos.
+In our next session, we will:
 
-Q: Can I extend the Create React App configuration?
-A: Yes, you can. While Create React App comes with a pre-configured setup, it does allow for customization. Be aware, though, that this can make your setup more complex and may lead to maintenance issues down the road.
+- Set up routes and pages in React
+- Use more advanced MUI components
+- Introduce Git for version control
+- Engage in hands-on exercises to solidify concepts
 
-Further Learning
-To continue building upon the knowledge and skills we developed during the workshop, I encourage you to explore the following resources:
+### Additional Resources
 
-React Documentation: For an in-depth exploration of React and its capabilities.
-Material UI Documentation: To learn more about Material UI and its components.
-React Router Documentation: For more advanced routing techniques with React.
-Create React App: To experiment and develop new React applications.
-Remember, the key to mastering these topics lies in continual practice and curiosity. Don't hesitate to experiment, build, break, and rebuild—that's how we grow as developers!
+Here are some useful links to resources we discussed:
 
-Once again, thank you for your participation and enthusiasm. Here's to many more learning experiences together!
+- [Create React App](https://create-react-app.dev/)
+- [React Material UI (MUI)](https://mui.com/)
+- [VS Code](https://code.visualstudio.com/)
 
-Cheers,
+### Feedback and Questions
+
+Your feedback is invaluable to us. Please let us know if you have any questions or suggestions. We want to ensure that you get the most out of this workshop series.
+
+Looking forward to seeing you in the next session!
+
+Cheers,  
 Jeffrey

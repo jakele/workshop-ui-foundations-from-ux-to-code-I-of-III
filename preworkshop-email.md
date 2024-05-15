@@ -1,23 +1,39 @@
-Subject: Welcome to the UI & React Foundations Workshop
+I hope you're as excited as I am about our upcoming workshop series, "From Design to Development for Designers & UX Practitioners"! As we prepare to dive into this hands-on learning experience, I wanted to share some important information and steps you can take to ensure you're ready for our first session.
 
-Dear Team,
+### Workshop Overview
 
-I'm thrilled to welcome you to the UI & React Foundations Workshop, a hands-on interactive learning experience designed to deepen your knowledge and skills in building modern web applications using React and other modern UI frameworks.
+In this workshop series, we'll cover:
 
-This workshop is a key part of our shared mission to continually develop and refine our technical skills, keeping us at the forefront of innovative solutions. It's an opportunity to explore React's component-based architecture, dive into some practical coding, and understand how React fits into the larger ecosystem of UI development.
+- Introduction to the terminal and file system navigation
+- Setting up VS Code and discussing what a code editor is
+- Creating a React application using Create React App
+- Adding and using Material UI (MUI) components
 
-Over the course of our session, we will:
+### Preparation Steps
 
-- Download and install React from the Create React App project
-- Set up routing and install Material UI
-- Develop a simple file structure and shared components
-- Pull in a Material UI theme for a polished, branded look
+Before our first session, please make sure you have the following set up:
 
-To maximize the value of our time together, I'd like to encourage you to install and run the Create React App before attending the workshop. This initial step will help us dive straight into the heart of our agenda. You can follow the official guide on [Create React App documentation](https://create-react-app.dev/docs/getting-started/) to get started. 
+1. **Visual Studio Code (VS Code)**
 
-Remember, your engagement, curiosity, and preparation are vital for making the most of this learning experience. So, come ready, ask questions, and don't hesitate to share your thoughts.
+   - Download and install VS Code from [here](https://code.visualstudio.com/).
 
-Looking forward to our shared journey into the world of React and modern UI!
+2. **Terminal (for Mac users)**
+
+   - Ensure you can open and use the terminal on your Mac. If you're new to the terminal, here is a [quick guide](https://macpaw.com/how-to/use-terminal-on-mac).
+
+3. **Windows Users**
+   - If you're using a Windows machine, please reach out to me prior to the workshop so we can ensure your setup is ready for the workshop exercises.
+
+### Additional Resources
+
+Here are some links to resources we'll be using during the workshop:
+
+- [Create React App](https://create-react-app.dev/)
+- [React Material UI (MUI)](https://mui.com/)
+
+Please ensure you review these resources and complete the necessary installations before our first session. If you have any questions or need assistance with the setup, don't hesitate to reach out.
+
+Looking forward to seeing you all soon and embarking on this learning journey together!
 
 Cheers,
 Jeffrey

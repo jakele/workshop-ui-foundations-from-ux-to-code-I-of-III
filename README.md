@@ -1,33 +1,47 @@
-# UI & React Foundations Workshop
+# Workshop Series: From Design to Development for Designers & UX Practitioners
 
-Hello there! I'm Jeffrey, and welcome to the UI & React Foundations Workshop. I've created this open-source workshop to share with the developer community, specifically with team leaders, educators, or anyone else looking to teach React and modern UI development to others.
+Hello there! I'm Jeffrey, and welcome to our workshop series, "From Design to Development for Designers & UX Practitioners." This open-source workshop series is designed to help bridge the gap between UX design and modern Node-based development. Our goal is to provide designers and UX practitioners with the skills needed to work seamlessly with components and code.
 
-## About this Workshop
+## About this Workshop Series
 
-This workshop is part of a series designed to introduce foundational knowledge in React and contemporary UI frameworks. Whether you are a team leader aiming to equip your team with frontend skills, or an educator preparing a course, this workshop provides you with a structured, yet flexible way to teach React fundamentals.
+This series consists of three sessions, each designed to build upon the previous one, ensuring you gain the foundational knowledge and hands-on experience needed to work effectively in a development environment.
 
-In this workshop, we'll cover:
+In this workshop series, we'll cover:
 
-- Setting up a React application using the Create React App tool
-- Understanding and implementing routing in React
-- An introduction to Material UI for designing UI components
-- How to create and use custom React components
-- An exploration of the component-based architecture
+### Session 1: Getting Started with Development
 
-In this repository, you'll find the completed project built throughout the workshop, along with detailed notes and code snippets. These resources can serve as a valuable reference when instructing others.
+- Foundations to the terminal and file system navigation
+- Setting up VS Code and discussing what a code editor is
+- Installing Node
+- Creating a React application using Create React App
+- Adding and using Material UI (MUI) components
 
-## Using this Workshop
+### Session 2: Building Your Application
 
-Encourage an interactive, hands-on approach when using this workshop. Practical examples and active participation will provide a deeper understanding of the concepts.
+- Demistifying Node projects
+- Setting up routes and pages in React
+- Using more advanced MUI components
+- Foundations to Git for version control
+- Hands-on exercises to solidify concepts
 
-This workshop focuses on foundational knowledge, laying a firm groundwork for further exploration of more advanced concepts. Keep the lessons on track and within scope to ensure the most valuable learning experience.
+### Session 3: Working in Your Codebase
+
+- Foundations to Node and Node commands
+- Integrating knowledge into your own projects
+- Final project walkthrough and Q&A
+
+## Using this Workshop Series
+
+Encourage participants to follow along with practical examples and actively participate in exercises. This hands-on approach will help them gain a deeper understanding of the concepts.
+
+The goal is not only to equip participants with the skills needed for their current projects but also to provide a solid foundation for future projects. By understanding the starting point and evolution of their projects, participants will be better prepared to adapt to new tools and frameworks.
 
 ## Contribute Back
 
-This workshop is freely available. However, contributions to improve and expand upon it are highly appreciated. Whether it's a typo fix, content enhancement, or new concept suggestion, your contributions help improve the workshop for the entire community. The stronger our collective knowledge, the more robust and versatile our teams and projects become!
+This workshop series is freely available, and contributions to improve and expand upon it are highly appreciated. Whether it's a typo fix, content enhancement, or new concept suggestion, your contributions help improve the workshop for the entire community. The stronger our collective knowledge, the more robust and versatile our teams and projects become!
 
 ## Feedback is Crucial
 
-Your feedback is invaluable in refining this workshop and shaping future ones. Whether it's from you or from those you are instructing, please share all comments, suggestions, and ideas. Your feedback helps me understand what works well and where there's room for improvement.
+Your feedback is invaluable in refining this workshop series and shaping future ones. Whether it's from you or from those you are instructing, please share all comments, suggestions, and ideas. Your feedback helps me understand what works well and where there's room for improvement.
 
-Thank you for choosing this workshop to guide your teaching efforts. Let's grow together in our understanding of frontend technologies, and make the web a better place to interact with. Happy coding!
+Thank you for choosing this workshop series to guide your learning and teaching efforts. Let's grow together in our understanding of frontend technologies and make the web a better place to interact with. Happy coding!
